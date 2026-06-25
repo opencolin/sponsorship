@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ethereum Turns 11 — A Builder-First Celebration</title>
+<meta name="description" content="A builder-first celebration of 11 years of Ethereum mainnet. San Francisco, July 30, 2026. Hosted by Dabl. Partner with the room that decides what gets built.">
+<meta property="og:title" content="Ethereum Turns 11 — A Builder-First Celebration">
+<meta property="og:description" content="A builder-first celebration of 11 years of Ethereum mainnet. San Francisco, July 30, 2026. Hosted by Dabl. Partner with the room that decides what gets built.">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FAFAF7; --ink:#0B0E0C; --navy:#052B42; --navy2:#0E3F5C;
+  --lime:#E0FF4F; --mist:#6E726B; --line:#E7E8E4; --soft:#F4F5F2;
+  --serif:"Newsreader",Georgia,serif; --sans:"Hanken Grotesk",system-ui,sans-serif; --mono:"JetBrains Mono",monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:19px;line-height:1.72;-webkit-font-smoothing:antialiased}
+::selection{background:var(--lime);color:var(--navy)}
+.topbar{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:1rem;
+  padding:.8rem clamp(1rem,4vw,2rem);background:rgba(5,43,66,.97);backdrop-filter:blur(8px);color:#fff;border-bottom:2px solid var(--lime)}
+.topbar .brand{display:flex;align-items:center;gap:.55rem;font-family:var(--sans);font-weight:800;font-size:1rem;letter-spacing:.01em}
+.topbar .dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--lime);box-shadow:0 0 10px var(--lime)}
+.topbar a{color:var(--lime);font-family:var(--mono);font-size:.74rem;text-decoration:none;letter-spacing:.04em;border:1px solid rgba(224,255,79,.4);padding:.4rem .7rem;border-radius:3px;white-space:nowrap}
+.topbar a:hover{background:var(--lime);color:var(--navy)}
+.wrap{max-width:760px;margin:0 auto;padding:clamp(2rem,5vw,4rem) clamp(1.1rem,4vw,1.5rem) 5rem}
+.kicker{font-family:var(--mono);font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--mist);margin:0 0 1.2rem}
+h1,h2,h3,h4{font-family:var(--sans);color:var(--navy);line-height:1.15;letter-spacing:-.01em}
+h1{font-size:clamp(2.2rem,6vw,3.1rem);font-weight:800;margin:.2rem 0 .6rem}
+h2{font-size:clamp(1.5rem,4vw,2rem);font-weight:700;margin:3rem 0 .9rem;padding-top:1.2rem;border-top:2px solid var(--lime)}
+h3{font-size:1.25rem;font-weight:700;margin:2rem 0 .5rem}
+h4{font-size:1.02rem;font-weight:700;margin:1.4rem 0 .4rem;font-family:var(--sans)}
+p{margin:0 0 1.15rem}
+a{color:var(--navy2);text-decoration:underline;text-underline-offset:2px;text-decoration-color:rgba(14,63,92,.35)}
+a:hover{text-decoration-color:var(--lime);background:linear-gradient(transparent 60%, rgba(224,255,79,.5) 0)}
+strong{color:var(--navy);font-weight:600}
+em{font-style:italic}
+ul,ol{margin:0 0 1.15rem;padding-left:1.3rem}
+li{margin:.3rem 0}
+hr{border:0;height:2px;background:linear-gradient(90deg,var(--lime),transparent);margin:2.5rem 0}
+blockquote{margin:1.4rem 0;padding:.4rem 0 .4rem 1.2rem;border-left:3px solid var(--lime);color:var(--navy2);font-style:italic;background:linear-gradient(90deg,var(--soft),transparent)}
+blockquote p{margin:.3rem 0}
+code{font-family:var(--mono);font-size:.84em;background:var(--soft);padding:.12em .4em;border-radius:4px;color:var(--navy)}
+pre{background:var(--navy);color:#E8EEF3;padding:1rem 1.2rem;border-radius:8px;overflow:auto;font-size:.82rem}
+pre code{background:none;color:inherit;padding:0}
+table{width:100%;border-collapse:collapse;margin:1.4rem 0;font-family:var(--sans);font-size:.92rem}
+th,td{text-align:left;padding:.6rem .8rem;border-bottom:1px solid var(--line);vertical-align:top}
+thead th{background:var(--navy);color:#fff;font-weight:600;border-bottom:none}
+tbody tr:nth-child(even){background:var(--soft)}
+.lead{font-size:1.18rem}
+.sitefoot{max-width:760px;margin:0 auto;padding:2rem clamp(1.1rem,4vw,1.5rem) 4rem;border-top:1px solid var(--line);font-family:var(--sans);font-size:.85rem;color:var(--mist)}
+.sitefoot a{color:var(--navy2)}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <span class="brand"><span class="dot"></span>Ethereum Turns 11</span>
+  <a href="https://dabl.club" target="_blank" rel="noopener">dabl.club &rarr;</a>
+</div>
+<main class="wrap">
+<p class="kicker">Partner invitation &middot; hosted by Dabl</p>
+<h1 id="ethereum-turns-11">Ethereum Turns 11</h1>
+<h3 id="a-builder-first-celebration-of-11-years-of-mainnet-san-francisco-thursday-july-30-2026">A builder-first celebration of 11 years of mainnet — San Francisco, Thursday, July 30, 2026</h3>
+<blockquote>
+<p>Hosted by <strong>Dabl</strong> · Frontier Tower, San Francisco · <a href="https://dabl.club">dabl.club</a></p>
+<p>A note to partners: this is an invitation to a conversation, not a price list. Tell us what you want this room to do for you, and we'll build the right activation around it.</p>
+</blockquote>
+<hr />
+<h2 id="the-moment">The moment</h2>
+<p>On <strong>July 30, 2015</strong>, the Ethereum mainnet went live. Eleven years later it settles trillions in value and is the home network for most of the people building the onchain future.</p>
+<p>We're marking the 11th birthday with the people who actually ship: an evening for founders, protocol engineers, and the operators building what's next — not a conference, not a logo wall. <strong>One room, one night, the builders who matter, in San Francisco.</strong></p>
+<p>Eleven is the <em>builder's</em> birthday — past the launch hype, deep into the real work. That's exactly the crowd a partner wants to be standing next to.</p>
+<hr />
+<h2 id="whos-in-the-room">Who's in the room</h2>
+<p>A partner isn't buying a banner at a party. You're buying <strong>access to a specific, hard-to-reach audience</strong> and a <strong>measurable outcome</strong> with them. Here's who Dabl brings.</p>
+<h3 id="reach-we-activate-for-this-event">Reach we activate for this event</h3>
+<table>
+<thead>
+<tr>
+<th>Channel</th>
+<th>Reach</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Email subscribers</td>
+<td><strong>80,000</strong></td>
+</tr>
+<tr>
+<td>Total community / contacts</td>
+<td><strong>160,000</strong></td>
+</tr>
+<tr>
+<td>Events produced to date</td>
+<td><strong>300+</strong></td>
+</tr>
+<tr>
+<td>Expected at the celebration</td>
+<td><strong>150–250 in person</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="who-they-actually-are">Who they actually are</h3>
+<p>Not "crypto people." The room and the list skew to <strong>decision-makers and builders</strong>, not tourists:</p>
+<ul>
+<li><strong>Protocol &amp; application engineers</strong> — the people who choose which chain, rollup, client, RPC, and dev tooling a project ships on.</li>
+<li><strong>Founders &amp; technical co-founders</strong> — early-stage teams actively selecting infra, custody, and onchain services <em>right now</em>.</li>
+<li><strong>Operators &amp; leads</strong> — DevRel, BD, and ecosystem leads who control real budgets and partnership decisions.</li>
+</ul>
+<h3 id="three-people-this-reaches">Three people this reaches</h3>
+<ul>
+<li><strong>The infra-deciding founder</strong> — seed/Series A, 2–15 person team, evaluating RPC providers, oracles, and onchain infra in the next 1–2 quarters; reads the timeline daily; holds budget authority.</li>
+<li><strong>The open-source protocol engineer</strong> — ships client/rollup/tooling code, influential on what their team adopts, allergic to marketing, moved by genuinely useful tools.</li>
+<li><strong>The ecosystem / BD lead</strong> — runs partnerships at a protocol or fund, attends 2–4 events a month, measured on developers activated and deals sourced.</li>
+</ul>
+<hr />
+<h2 id="the-opportunity">The opportunity</h2>
+<ul>
+<li><strong>Dabl</strong> has produced 300+ events and reaches 160K people across the onchain builder community. We do <em>one room, the right people, no filler.</em></li>
+<li><strong>The celebration</strong> is a single evening at Frontier Tower marking 11 years of Ethereum — a cultural moment with a built-in story the whole ecosystem wants to share.</li>
+<li><strong>The audience</strong> is the people who decide what gets built on and with: the highest-intent, hardest-to-reach crowd in crypto, in one place for one night.</li>
+</ul>
+<hr />
+<h2 id="what-a-partner-gets">What a partner gets</h2>
+<p>We don't sell Gold/Silver/Bronze. You don't buy a bundle to get the one thing you want. We start from <em>your</em> goal and build the right activation around it.</p>
+<h3 id="if-your-goal-is-developer-adoption">If your goal is developer adoption</h3>
+<p>Get builders to <em>try your thing</em> in the room: a hands-on demo station, a "build with us" mini-challenge, your tool as the official stack of the night, or a 5-minute lightning demo to the whole room.</p>
+<h3 id="if-your-goal-is-qualified-leads">If your goal is qualified leads</h3>
+<p>A reason for builders to share who they are: a raffle or onchain claim that captures verified attendee info, a curated intro session, or a post-event warm list of opted-in attendees who engaged with your activation.</p>
+<h3 id="if-your-goal-is-brand-love-with-the-builder-crowd">If your goal is brand love with the builder crowd</h3>
+<p>Be the reason the night is good, not the logo on the wall: host the bar or the toast to 11 years, sponsor the thing people remember (the cake, the commemorative onchain mint, the after-party), put a respected voice from your team on the mic.</p>
+<h3 id="if-your-goal-is-recruiting">If your goal is recruiting</h3>
+<p>This is a room full of people who can build anything: a "we're hiring" moment, a talent corner, or facilitated intros to engineers matched to your stack.</p>
+<blockquote>
+<p>Every item above is an <strong>activation</strong> — something that produces a result you can measure — not a logo placement. We agree the target with you up front (signups, demos, leads, intros) and <strong>report the actuals within a week.</strong></p>
+</blockquote>
+<hr />
+<h2 id="sample-activations">Sample activations</h2>
+<ol>
+<li><strong>"Built on Ethereum" onchain mint</strong> — every attendee mints a free commemorative 11th-birthday token at the door; the partner is the official mint sponsor and receives the opted-in engagement data. <em>Audience gets a keepsake; partner gets verified, high-intent contact.</em></li>
+<li><strong>The Builder Challenge</strong> — a partner-sponsored mini-bounty ("ship the best thing on our API/testnet tonight"), judged live, prize on stage. <em>Audience gets a reason to build; partner gets demos and a leaderboard of engaged engineers.</em></li>
+<li><strong>The Toast to 11 Years</strong> — the partner hosts the moment the whole room stops for: a short toast, a great photo, the thing that ends up on everyone's timeline. <em>Audience gets the memory; partner gets the brand association a banner can't buy.</em></li>
+</ol>
+<hr />
+<h2 id="how-to-take-part">How to take part</h2>
+<p>This is structured the crypto-native way: a small, transparent <strong>founding round</strong>, not a sales grid.</p>
+<h3 id="founding-partners-1-eth-each-34-slots">Founding Partners — 1 ETH each · 3–4 slots</h3>
+<p>One ETH. Flat. Public. Everyone in at the same number — the way a good round works. You get a tailored activation from the menu above, founding-partner recognition across the build-up and the night, and the post-event report. The ask is denominated in ETH on purpose: it's native to this audience, it locks our interests to the network we're celebrating, and it lets you commit in a single message.</p>
+<h3 id="title-partner-1-slot">Title Partner — 1 slot</h3>
+<p>One partner can own the night ("Ethereum Turns 11, presented by you"). This one we build in a short conversation, shaped around what you want the night to deliver. If owning the builder room on Ethereum's birthday is worth it to you, let's talk about what that looks like.</p>
+<hr />
+<h2 id="what-we-report-back">What we report back</h2>
+<p>Within <strong>one week</strong> of the event, every partner gets a fulfillment report: what we promised versus what we delivered, with the actual numbers — signups, demos, mints, leads, reach, attendance — and a photo of every activation in action. It's also how we start the conversation about Ethereum's 12th.</p>
+<hr />
+<h2 id="lets-talk">Let's talk</h2>
+<p><strong>Collin · <a href="mailto:collin@dabl.club">collin@dabl.club</a> · <a href="https://dabl.club">dabl.club</a></strong></p>
+<p>Tell me what you'd want this room to do, and I'll build the activation around it.</p>
+</main>
+<footer class="sitefoot">
+Hosted by <a href="https://dabl.club">Dabl</a> &middot; Frontier Tower, San Francisco &middot; July 30, 2026. Questions? <a href="mailto:collin@dabl.club">collin@dabl.club</a>.
+</footer>
+</body>
+</html>
