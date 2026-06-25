@@ -117,9 +117,9 @@ write_page(
     title="Ethereum Turns 11 — A Builder-First Celebration",
     desc="A builder-first celebration of 11 years of Ethereum mainnet. San Francisco, July 30, 2026. Hosted by Dabl. Partner with the room that decides what gets built.",
     brand="Ethereum Turns 11",
-    navhref="https://dabl.club",
-    navtext="dabl.club",
+    navhref="https://dablclub.com",
+    navtext="dablclub.com",
     kicker="Partner invitation &middot; hosted by Dabl",
-    footer=('Hosted by <a href="https://dabl.club">Dabl</a> &middot; Frontier Tower, San Francisco &middot; July 30, 2026. '
+    footer=('Hosted by <a href="https://dablclub.com">Dabl</a> &middot; Frontier Tower, San Francisco &middot; July 30, 2026. '
             'Questions? <a href="mailto:collin@dabl.club">collin@dabl.club</a>.'),
 )

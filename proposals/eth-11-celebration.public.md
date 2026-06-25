@@ -1,7 +1,7 @@
 # Ethereum Turns 11
 ### A builder-first celebration of 11 years of mainnet — San Francisco, Thursday, July 30, 2026
 
-> Hosted by **Dabl** · Frontier Tower, San Francisco · [dabl.club](https://dabl.club)
+> Hosted by **Dabl** · Frontier Tower, San Francisco · [dablclub.com](https://dablclub.com)
 >
 > A note to partners: this is an invitation to a conversation, not a price list. Tell us what you want this room to do for you, and we'll build the right activation around it.
 
@@ -102,6 +102,9 @@ Within **one week** of the event, every partner gets a fulfillment report: what 
 
 ## Let's talk
 
-**Collin · [collin@dabl.club](mailto:collin@dabl.club) · [dabl.club](https://dabl.club)**
+Tell me what you'd want this room to do, and I'll build the activation around it. **Telegram is quickest.**
 
-Tell me what you'd want this room to do, and I'll build the activation around it.
+- **Telegram** — [t.me/colinai](https://t.me/colinai)
+- **Phone / text** — [713-409-1257](tel:+17134091257)
+- **Email** — [collin@dabl.club](mailto:collin@dabl.club)
+- **Web** — [dablclub.com](https://dablclub.com)
