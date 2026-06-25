@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
-"""Render 00_MASTER_PLAYBOOK.md into a styled static index.html."""
+"""Render the playbook and proposal Markdown into styled static HTML pages."""
 import markdown, pathlib
 
-md_text = pathlib.Path("00_MASTER_PLAYBOOK.md").read_text(encoding="utf-8")
-body = markdown.markdown(
-    md_text,
-    extensions=["tables", "fenced_code", "sane_lists", "toc", "attr_list", "md_in_html"],
-)
+def render_md(path):
+    return markdown.markdown(
+        pathlib.Path(path).read_text(encoding="utf-8"),
+        extensions=["tables", "fenced_code", "sane_lists", "toc", "attr_list", "md_in_html"],
+    )
 
 PAGE = """<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sponsorship Playbook — How to Get Sponsorships</title>
-<meta name="description" content="The complete operating system for getting corporate sponsorships, synthesized from modern sponsorship-sales best practices. A research archive + reusable playbook.">
-<meta property="og:title" content="Sponsorship Playbook — How to Get Sponsorships">
-<meta property="og:description" content="The complete operating system for getting corporate sponsorships. Sell audience + outcomes, not logos.">
+<title>__TITLE__</title>
+<meta name="description" content="__DESC__">
+<meta property="og:title" content="__TITLE__">
+<meta property="og:description" content="__DESC__">
 <meta property="og:type" content="article">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -68,21 +68,58 @@ tbody tr:nth-child(even){background:var(--soft)}
 </head>
 <body>
 <div class="topbar">
-  <span class="brand"><span class="dot"></span>Sponsorship Playbook</span>
-  <a href="https://github.com/opencolin/sponsorship" target="_blank" rel="noopener">Full archive on GitHub &rarr;</a>
+  <span class="brand"><span class="dot"></span>__BRAND__</span>
+  <a href="__NAVHREF__" target="_blank" rel="noopener">__NAVTEXT__ &rarr;</a>
 </div>
 <main class="wrap">
-<p class="kicker">Research archive &middot; how to get sponsorships</p>
+<p class="kicker">__KICKER__</p>
 __BODY__
 </main>
 <footer class="sitefoot">
-  A synthesis of modern sponsorship-sales best practices, compiled for BuilderShip sponsor outreach.
-  The full archive &mdash; 21 digests and a reusable Claude skill &mdash; is
-  <a href="https://github.com/opencolin/sponsorship">on GitHub</a>.
+__FOOTER__
 </footer>
 </body>
 </html>
 """
-out = PAGE.replace("__BODY__", body)
-pathlib.Path("index.html").write_text(out, encoding="utf-8")
-print(f"index.html written: {len(out)} bytes")
+
+def write_page(out_path, *, body, title, desc, brand, navhref, navtext, kicker, footer):
+    html = (PAGE
+            .replace("__BODY__", body)
+            .replace("__TITLE__", title)
+            .replace("__DESC__", desc)
+            .replace("__BRAND__", brand)
+            .replace("__NAVHREF__", navhref)
+            .replace("__NAVTEXT__", navtext)
+            .replace("__KICKER__", kicker)
+            .replace("__FOOTER__", footer))
+    pathlib.Path(out_path).write_text(html, encoding="utf-8")
+    print(f"{out_path} written: {len(html)} bytes")
+
+# The playbook (home page).
+write_page(
+    "index.html",
+    body=render_md("00_MASTER_PLAYBOOK.md"),
+    title="Sponsorship Playbook — How to Get Sponsorships",
+    desc="The complete operating system for getting corporate sponsorships, synthesized from modern sponsorship-sales best practices. A research archive + reusable playbook.",
+    brand="Sponsorship Playbook",
+    navhref="https://github.com/opencolin/sponsorship",
+    navtext="Full archive on GitHub",
+    kicker="Research archive &middot; how to get sponsorships",
+    footer=('A synthesis of modern sponsorship-sales best practices, compiled for BuilderShip sponsor outreach. '
+            'The full archive &mdash; 21 digests and a reusable Claude skill &mdash; is '
+            '<a href="https://github.com/opencolin/sponsorship">on GitHub</a>.'),
+)
+
+# The Ethereum 11th-birthday partner proposal (public, partner-facing).
+write_page(
+    "proposals/eth-11-celebration.html",
+    body=render_md("proposals/eth-11-celebration.public.md"),
+    title="Ethereum Turns 11 — A Builder-First Celebration",
+    desc="A builder-first celebration of 11 years of Ethereum mainnet. San Francisco, July 30, 2026. Hosted by Dabl. Partner with the room that decides what gets built.",
+    brand="Ethereum Turns 11",
+    navhref="https://dabl.club",
+    navtext="dabl.club",
+    kicker="Partner invitation &middot; hosted by Dabl",
+    footer=('Hosted by <a href="https://dabl.club">Dabl</a> &middot; Frontier Tower, San Francisco &middot; July 30, 2026. '
+            'Questions? <a href="mailto:collin@dabl.club">collin@dabl.club</a>.'),
+)
