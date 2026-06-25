@@ -92,9 +92,9 @@ This is a room full of people who can build anything: a "we're hiring" moment, a
 
 ## 6. The ask — a founding partner cohort
 
-This is structured the crypto-native way: a small, transparent **founding round**, not a sales grid.
+This is structured the crypto-native way: an open, transparent **founding round**, not a sales grid.
 
-### Founding Partners — **1 ETH each · capped at ‹3–4› slots**
+### Founding Partners — **1 ETH each · open round**
 One ETH. Flat. Public. Everyone in at the same number — the way a good round works. You get a tailored activation from the menu above (Section 4), founding-partner recognition across the build-up and the night, and the post-event report.
 
 **Why 1 ETH and not a dollar figure:** the number is the point. It's memetic, it's native to this audience, it locks our interests to the network we're celebrating, and it lets a partner commit in a single Slack message instead of a procurement cycle — which is exactly what a 5-week runway needs. *(At ‹~$1,650›/ETH today; ETH moves, and that's fine — the ask is denominated in ETH on purpose.)*
@@ -104,7 +104,7 @@ One ETH. Flat. Public. Everyone in at the same number — the way a good round w
 ### Title Partner — **1 slot · custom**
 One partner can own the night ("Ethereum Turns 11, presented by ‹Partner›"). This is **not** a 1-ETH slot and it isn't priced here on purpose — it's built in a 15-minute conversation around what you want the night to deliver, and valued against what reaching this exact room costs you anywhere else (see appendix). If owning the builder room on Ethereum's birthday is worth it to you, let's talk about what that looks like.
 
-> *‹If you actually meant "1 ETH total, single sponsor covers the whole event" — say the word and I'll re-cut Sections 4–6 as one clean single-partner ask. The structure above assumes 1 ETH × ‹3–4› founding partners + one custom Title slot, which is what you described.›*
+> *‹If you actually meant "1 ETH total, single sponsor covers the whole event" — say the word and I'll re-cut Sections 4–6 as one clean single-partner ask. The structure above assumes an open round of 1-ETH founding partners + one custom Title slot.›*
 
 ---
 
@@ -168,7 +168,7 @@ Within **one week** of the event, every partner gets a fulfillment report: what 
 |---|---|---|
 | Date | Thu **July 30, 2026** (Ethereum's 11th) | — fixed by the network |
 | Venue | **Frontier Tower, SF** | ‹swap if running elsewhere› |
-| Founding ask | **1 ETH** × ‹3–4› slots | ‹adjust slots / amount› |
+| Founding ask | **1 ETH** · open round (uncapped) | ‹adjust amount / add a cap› |
 | Title slot | **1, custom/unpriced** | ‹or fold into single-sponsor ask› |
 | Email reach | ‹80,000› | ‹your public number› |
 | Total contacts | ‹160,000› | ‹your public number› |
