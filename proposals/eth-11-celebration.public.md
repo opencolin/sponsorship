@@ -54,6 +54,19 @@ Not "crypto people." The room and the list skew to **decision-makers and builder
 
 ---
 
+## In partnership with
+
+Produced alongside the teams building Ethereum in San Francisco:
+
+- **ETH SF**
+- **Ethereum House**
+- **Ethereum Foundation**
+- **BuildETH**
+- **Vara.ETH**
+- **Frontier Tower**
+
+---
+
 ## What a partner gets
 
 We don't sell Gold/Silver/Bronze. You don't buy a bundle to get the one thing you want. We start from *your* goal and build the right activation around it.
