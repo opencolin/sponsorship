@@ -60,6 +60,8 @@ Not "crypto people." The room and the list skew to **decision-makers and builder
 - **The celebration** is a single evening at **Frontier Tower** marking 11 years of Ethereum — a cultural moment with a built-in story the whole ecosystem wants to share.
 - **The market** is the people who decide what gets built on and with: the highest-intent, hardest-to-reach audience in crypto, in one place for one night.
 
+**Produced in partnership with:** ETH SF · Ethereum House · Ethereum Foundation · BuildETH · Vara.ETH · Frontier Tower.
+
 ---
 
 ## 4. What a partner gets (a menu, not tiers)
