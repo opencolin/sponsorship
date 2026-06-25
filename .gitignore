@@ -2,3 +2,6 @@ _raw_vtt/
 .DS_Store
 *.log
 .vercel
+
+# Never commit guest lists / exports (PII)
+*.csv
