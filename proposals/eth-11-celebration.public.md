@@ -84,9 +84,9 @@ This is a room full of people who can build anything: a "we're hiring" moment, a
 
 ## How to take part
 
-This is structured the crypto-native way: a small, transparent **founding round**, not a sales grid.
+This is structured the crypto-native way: an open, transparent **founding round**, not a sales grid.
 
-### Founding Partners — 1 ETH each · 3–4 slots
+### Founding Partners — 1 ETH each
 One ETH. Flat. Public. Everyone in at the same number — the way a good round works. You get a tailored activation from the menu above, founding-partner recognition across the build-up and the night, and the post-event report. The ask is denominated in ETH on purpose: it's native to this audience, it locks our interests to the network we're celebrating, and it lets you commit in a single message.
 
 ### Title Partner — 1 slot
