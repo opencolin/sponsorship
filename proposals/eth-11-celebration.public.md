@@ -15,6 +15,8 @@ We're marking the 11th birthday with the people who actually ship: an evening fo
 
 Eleven is the *builder's* birthday — past the launch hype, deep into the real work. That's exactly the crowd a partner wants to be standing next to.
 
+Last year we did this for the 10th — [see how it went](https://lu.ma/ethereum-10y-sanfrancisco).
+
 ---
 
 ## Who's in the room
