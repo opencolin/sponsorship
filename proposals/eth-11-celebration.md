@@ -54,6 +54,8 @@ Not "crypto people." The room and the list skew to **decision-makers and builder
 - **"Open-source protocol engineer"** — ships client/rollup/tooling code, influential on what their team adopts, allergic to marketing, moved by genuinely useful tools.
 - **"Ecosystem / BD lead"** — runs partnerships at a protocol or fund, attends 2–4 events a month, measured on developers activated and deals sourced.
 
+> **Real proof beats placeholders.** Last year's 10th-birthday event profile (581 approved guests: 42% founders, 62% with 4+ years, 77% Bay Area) is the strongest audience evidence we have — published at `eth-11-audience.html` and linked from the public page. Regenerate with `python3 proposals/build_audience.py <guests.csv>` (the CSV holds PII and is **not** committed).
+
 ---
 
 ## 3. The opportunity (the short version)

@@ -46,6 +46,8 @@ Not "crypto people." The room and the list skew to **decision-makers and builder
 - **The open-source protocol engineer** — ships client/rollup/tooling code, influential on what their team adopts, allergic to marketing, moved by genuinely useful tools.
 - **The ecosystem / BD lead** — runs partnerships at a protocol or fund, attends 2–4 events a month, measured on developers activated and deals sourced.
 
+> **The data backs this up.** Last year's 10th-birthday celebration drew **581 approved guests** — **42% founders**, **62% with 4+ years** in Ethereum, and **77% from the SF Bay Area**. **[See the full audience profile →](eth-11-audience.html)**
+
 ---
 
 ## The opportunity
